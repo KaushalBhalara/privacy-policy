@@ -6,65 +6,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #f4f6f9;
             color: #333;
         }
-        h1, h2 {
+
+        .header {
+            text-align: center;
+            padding: 30px 20px 15px 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
             color: #111;
+        }
+
+        .nav {
+            margin-top: 15px;
+        }
+
+        .nav a {
+            margin: 0 10px;
+            padding: 8px 16px;
+            background-color: #3b82f6;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .nav a:hover {
+            background-color: #2563eb;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-<h1>Privacy Policy</h1>
+<div class="header">
+    <h1>iDroid App</h1>
+    <div class="nav">
+        <a href="index.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+    </div>
+</div>
+
+<div class="container">
+
 <p><strong>Effective Date:</strong> March 1, 2026</p>
 
-<p>This Privacy Policy applies to mobile applications developed and published by <strong>iDroid App</strong> ("we", "our", or "us") for iOS and Android devices.</p>
+<p>This Privacy Policy applies to mobile applications developed and published by <strong>iDroid App</strong>.</p>
 
-<h2>1. Information We Do Not Collect</h2>
-<p>Our applications do not collect, store, or request personally identifiable information (PII), including your name, email address, phone number, physical address, or account credentials. No account registration is required.</p>
+<h2>Advertising & Third-Party Services</h2>
+<p>We may display advertisements using Google AdMob. Advertising identifiers and device data may be used for ad delivery and analytics.</p>
 
-<h2>2. Advertising & Third-Party Services</h2>
-<p>To keep our applications free, we may display advertisements using Google AdMob (Google LLC).</p>
+<p>For more details, see Google’s Privacy Policy:</p>
+<p><a href="https://policies.google.com/privacy" target="_blank">
+https://policies.google.com/privacy</a></p>
 
-<p>AdMob may automatically collect:</p>
-<ul>
-<li>Advertising Identifiers (IDFA on iOS, AAID on Android)</li>
-<li>Device information (model, OS version, language)</li>
-<li>Ad interaction data (impressions, clicks)</li>
-</ul>
+<h2>Contact</h2>
+<p>Email: <a href="mailto:idroidapp@outlook.com">idroidapp@outlook.com</a></p>
 
-<p>This data is used for ad personalization (if permitted), frequency capping, and analytics.</p>
+<footer>
+© 2026 iDroid App. All rights reserved.
+</footer>
 
-<p>For more information, please review Google’s Privacy Policy:</p>
-<p><a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
-
-<h2>3. App Tracking Transparency (iOS)</h2>
-<p>On iOS devices, we use Apple’s App Tracking Transparency framework. We request permission before accessing the advertising identifier (IDFA). If permission is denied, personalized ads are disabled.</p>
-
-<h2>4. Android Advertising ID</h2>
-<p>On Android, advertising identifiers are used in compliance with Google Play policies. Users may reset or delete their advertising identifier in device settings.</p>
-
-<h2>5. Children's Privacy</h2>
-<p>Our applications are not directed to children under 13 (or 16 in certain jurisdictions). We do not knowingly collect personal data from children.</p>
-
-<h2>6. Data Security</h2>
-<p>We rely on trusted third-party providers that implement appropriate security measures to protect collected data.</p>
-
-<h2>7. Your Privacy Choices</h2>
-<p>You may disable personalized ads, reset your advertising identifier, or limit ad tracking through your device settings.</p>
-
-<h2>8. Changes to This Privacy Policy</h2>
-<p>We may update this Privacy Policy from time to time. Updates will be reflected by revising the effective date above.</p>
-
-<h2>9. Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, please contact:</p>
-<p><strong>iDroid App</strong><br>
-Email: idroidapp@outlook.com</p>
+</div>
 
 </body>
 </html>
